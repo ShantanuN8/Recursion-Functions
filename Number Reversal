@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+void reverse(int num)
+{
+     if(num>0)
+     {
+         cout<<(num%10);
+         reverse(num/10);
+     }
+}
+int main()
+{
+    int myvar;
+    cout<<"Enter a number:-";
+    cin>>myvar;
+    reverse(myvar);
+}

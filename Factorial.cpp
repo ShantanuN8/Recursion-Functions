@@ -13,3 +13,7 @@ int main() {
     cin>>n;
     cout<<factorial(n); 
 }
+/*OUTPUT
+Number to find the factorial of:-12
+479001600
+*/

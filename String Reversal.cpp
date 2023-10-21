@@ -14,3 +14,7 @@ int main()
     cin>>mystr;
     reverse(mystr);
 }
+/*OUTPUT
+Enter a string:-hello
+olleh
+*/
